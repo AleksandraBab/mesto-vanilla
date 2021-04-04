@@ -1,0 +1,26 @@
+.element__like-btn {
+  display: flex;
+  /*Выставлен для исправления бага с baseline в FireFox */
+
+  width: 22px;
+  height: 19px;
+  margin-left: auto;
+  padding: 0;
+  background: none;
+  border: none;
+  background-image: url(../../../images/heart.svg);
+  background-repeat: no-repeat;
+  cursor: pointer;
+  -webkit-transition: 0.3s ease-out;
+  -o-transition: 0.3s ease-out;
+  transition: 0.3s ease-out;
+}
+
+.element__like-btn:hover {
+  opacity: 0.5;
+}
+
+.element__like-btn:focus {
+  outline: none;
+}
+

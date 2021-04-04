@@ -1,0 +1,17 @@
+.element__caption {
+  width: calc(100% - 36px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
+  margin: 25px 15px 31px 21px;
+}
+
+@media screen and (min-width:602px) and (max-width:768px){
+  .element__caption {
+    margin-top: 20px;
+    margin-bottom: 16px;
+  }
+}

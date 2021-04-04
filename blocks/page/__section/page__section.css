@@ -1,0 +1,13 @@
+.page__section {
+  margin: 0 auto 51px;
+}
+
+.page__section:last-child {
+  margin-bottom: 0;
+}
+
+@media screen and (max-width:602px){
+  .page__section {
+    margin-bottom: 36px;
+  }
+}

@@ -1,0 +1,35 @@
+.profile__edit-btn {
+  display: flex;
+  /*Выставлен для исправления бага с baseline в FireFox */
+
+  box-sizing: border-box;
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  background: none;
+  border: 1px solid #FFFFFF;
+  background-image: url(../../../images/Edit-Button.svg);
+  background-size: 7px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  cursor: pointer;
+  -webkit-transition: 0.3s ease-out;
+  -o-transition: 0.3s ease-out;
+  transition: 0.3s ease-out;
+}
+
+.profile__edit-btn:hover {
+  opacity: 0.6;
+}
+
+.profile__edit-btn:focus {
+  outline: none;
+}
+
+@media screen and (max-width:602px){
+  .profile__edit-btn {
+    width: 18px;
+    height: 18px;
+    background-size: 7.5px;
+  }
+}

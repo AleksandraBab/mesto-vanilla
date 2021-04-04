@@ -1,0 +1,14 @@
+.element__heading {
+  margin: 0;
+  max-width: 80%;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
